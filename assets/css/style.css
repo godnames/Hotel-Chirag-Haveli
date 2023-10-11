@@ -475,6 +475,7 @@ embed,
 iframe,
 object {
 	max-width: 100%;
+	border-radius: 1.5rem;
 }
 
 table {
@@ -1232,7 +1233,7 @@ h1,
 
 h1.display,
 .h1-display {
-	font-size: 4.768em;
+	font-size: 3.768em;
 	font-weight: 400;
 }
 
@@ -1253,7 +1254,7 @@ h6:first-child,
 
 h2,
 .h2 {
-	font-size: 3.052em;
+	font-size: 2.052em;
 }
 
 h3,
@@ -1438,7 +1439,7 @@ textarea {
 	max-width: 100%;
 	vertical-align: baseline;
 	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-	border-radius: 0;
+	border-radius: 1.5rem;
 }
 
 input {
@@ -3171,7 +3172,7 @@ body .block-grid.alignfull {
 
 	.block-media-text.stairs-effect .text-part:before,
 	.block-media-text.stairs-effect .text-part:after {
-		content: '';
+		
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -4359,6 +4360,7 @@ body:not(.has-sidebar) .pagination {
 	text-align: center;
 	background-color: var(--accent-color);
 	color: var(--accent-color-alt);
+	border-radius: 1.5rem
 }
 
 @media (min-width: 768px) {

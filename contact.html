@@ -9,6 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:400,400i,600,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/materialdesignicons.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .placeholder{
+            font-size: larger;
+        }
+    </style>
 </head>
 
 <body class="has-featured-image navbar-sticky">
@@ -44,7 +49,7 @@
                     </li>
                     <li><a href="restaurant.html">Restaurant</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li class="menu-item-has-children">
+                    <li >
                         <a href="rooms.html">Rooms</a>
                         <!--<ul class="sub-menu">
 							<li><a href="news.html">Latest News</a></li>
@@ -52,7 +57,7 @@
 							<li><a href="single-post.html">Single Post</a></li>
 						</ul>-->
                     </li>
-                    <li class="menu-item-has-children">
+                    <li >
                         <a href="Attraction.html"> Attraction </a>
                         <!--<ul class="sub-menu">
 							<li><a href="styleguide.html">Styleguide</a></li>
@@ -135,19 +140,20 @@
                         </div>
                     </div>
                     <div class="custom-html">
+                        <
                         <form id="contact_form" action="sendmail.php" method="post" class="contact-form">
                             <div id="contact_alert" class="alert notice text-center"></div>
                             <p class="first-column">
-                                <label for="your_name">Name:</label>
-                                <input type="text" name="your_name" id="your_name" required>
+                                <!--<label for="your_name">Name:</label>-->
+                                <input type="text" name="your_name" id="your_name" placeholder="Name" required>
                             </p>
                             <p class="second-column">
-                                <label for="your_email">Email:</label>
-                                <input type="email" name="your_email" id="your_email" required>
+                                <!--<label for="your_email">Email:</label>-->
+                                <input type="email" name="your_email" id="your_email" placeholder="Email"  required>
                             </p>
                             <p>
-                                <label for="your_message">Message:</label>
-                                <textarea name="your_message" cols="40" rows="8" id="your_message" required></textarea>
+                                <!--<label for="your_message">Message:</label>-->
+                                <textarea name="your_message" cols="40" rows="8" id="your_message" placeholder="Message"  required></textarea>
                             </p>
                             <p class="text-center"><input type="submit" value="Send Message"></p>
                         </form>
