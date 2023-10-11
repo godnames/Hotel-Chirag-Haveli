@@ -476,6 +476,7 @@ iframe,
 object {
 	max-width: 100%;
 	border-radius: 1.5rem;
+	border: 0.1px solid var(--body-alt-text-color) !important;
 }
 
 table {
